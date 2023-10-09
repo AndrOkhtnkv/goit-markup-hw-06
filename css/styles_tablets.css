@@ -41,8 +41,8 @@ li {
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    /* background-color: #FFFFFF; */
-    background-color: burlywood;
+    background-color: #FFFFFF;
+    
 }
 img {
     display: block;
@@ -172,6 +172,7 @@ header .logo {
     border-radius: 4px;
     margin-bottom: 8px;
     border: 1px solid #8E8F99;
+    display: none;
 
 }
 .section_three {
@@ -370,13 +371,16 @@ header .logo {
 
 .section_two_list {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 24px;
 }
 .section_two_list_item {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 48px) / 2);
 }
 
 .section_two_h_three {
+    font-size: 36px;
     margin-bottom: 8px;
 }
 
@@ -389,10 +393,12 @@ header .logo {
 }
 .section_three_list {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 24px;
 }
 .section_three_list-item {
-    width: calc((100% - 72px) / 4);
+    width: 264px;
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -422,7 +428,7 @@ header .logo {
     row-gap: 48px;
 }
 .section_four_list-item {
-    width: calc((100% - 48px) / 3);
+    width: 356px;
 }
 .section_four_list-item-info {
     padding: 32px 16px;
@@ -491,7 +497,6 @@ header .logo {
 }
 .footer .form_container {
     
-    margin-left: 80px;
 }
 .input_a {
     width: 264px;
