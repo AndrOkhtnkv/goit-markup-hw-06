@@ -118,7 +118,7 @@ header .logo {
     background-position: center center;
     background-size: cover;
     background-color:#2e2f42;
-    max-width: 768px;
+    max-width: 1440px;
     max-height: 436px;
     margin: 0 auto;
     display: flex;
@@ -294,6 +294,7 @@ header .logo {
 }
 
 .footer .footer-paragraph {
+    width: 264px;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
@@ -453,12 +454,20 @@ header .logo {
 }
 
 .footer .container {
+    
     display: flex;
+    flex-wrap: wrap;
+    padding-left: 108px;
+    gap: 24px;
     align-items: baseline;
 }
 
 .container_inner {
-    margin-right: 120px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 264px;
+    /* margin-right: 120px; */
 }
 
 .icons_p {
@@ -483,6 +492,7 @@ header .logo {
 }
 
 .footer .form_p {
+    margin-top: 72px;
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
@@ -495,8 +505,9 @@ header .logo {
     gap: 24px;
     
 }
+
 .footer .form_container {
-    
+    margin-left: 0;
 }
 .input_a {
     width: 264px;
