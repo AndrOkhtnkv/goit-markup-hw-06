@@ -70,7 +70,9 @@ header .logo {
 .logo span {
     color:  #2E2F42;
 }
-
+.nav_bar_window {
+     cursor: pointer;
+}
 .nav-item {
     font-weight: 500;
     line-height: 1.5;
