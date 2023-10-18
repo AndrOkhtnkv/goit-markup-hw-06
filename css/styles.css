@@ -111,7 +111,9 @@ header .logo {
 .contacts-item:hover, .contacts-item:focus {
     color: #404bbf;
 }
-
+.mob-menu {
+    display: none;
+}
 
 .section_one {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Images3/people-office_1.jpg);
