@@ -852,6 +852,7 @@ header .logo {
     justify-content: center;
     fill: transparent; 
     margin-right: 8px;
+    margin-bottom: 20px;
 }
 .check_box_svg {
     border: none;
