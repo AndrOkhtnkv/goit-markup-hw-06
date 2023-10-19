@@ -63,7 +63,7 @@ img {
     
 }
 header .logo {
-    margin-right: 76px;
+    margin-right: 120px;
 }
 .logo span {
     color:  #2E2F42;
@@ -104,8 +104,8 @@ header .logo {
 
 }
 .contacts-item {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    line-height: 14px; /* 116.667% */
+    letter-spacing: 0.48px;
     color: #434455;
     transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -123,11 +123,8 @@ header .logo {
     background-size: cover;
     background-color:#2e2f42;
     max-width: 1440px;
-    max-height: 436px;
+
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .section_one_h_one {
@@ -157,15 +154,22 @@ header .logo {
 }
 
 .section_two_h_three {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 .section_two_p {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
 }
 .sctn_two_icon {
     display: flex;
@@ -335,7 +339,7 @@ header .logo {
 }
 
 .section_one {
-    padding: 188px 0;
+    padding: 112px 0;
 }
 
 .section_one_h_one {
@@ -357,7 +361,7 @@ header .logo {
 }
 
 .section_two {
-    padding: 120px 0;
+    padding: 96px 0;
 }
 
 .visually-hidden {
@@ -385,7 +389,7 @@ header .logo {
 }
 
 .section_two_h_three {
-    font-size: 36px;
+   
     margin-bottom: 8px;
 }
 
@@ -401,6 +405,7 @@ header .logo {
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
+    row-gap: 64px;
 }
 .section_three_list-item {
     width: 264px;
@@ -419,8 +424,8 @@ header .logo {
 }
 
 .section_four {
-    padding-top: 120px; 
-    padding-bottom: 120px;
+    padding-top: 96px; 
+    padding-bottom: 96px;
 }
 .section_four_h_two {
     margin-bottom: 72px;
@@ -446,7 +451,7 @@ header .logo {
 }
 
 .footer {
-    padding: 100px 0;
+    padding: 96px 0;
 }
 .footer .logo {
     display: inline-block;
@@ -458,11 +463,11 @@ header .logo {
 }
 
 .footer .container {
-    
+    width: 564px;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 108px;
     gap: 24px;
+    row-gap: 72px;
     align-items: baseline;
 }
 
@@ -496,7 +501,7 @@ header .logo {
 }
 
 .footer .form_p {
-    margin-top: 72px;
+    
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
