@@ -124,7 +124,14 @@ header .logo {
     max-width: 1440px;
     margin: 0 auto;
 }
-
+@media (min-device-ratio:2),
+    (min-resolution:192dpi),
+    (min-resolution: 2dppx) {
+.section_one {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images_double/hero_image_2x.jpg);
+}
+    }
+    
 .section_one_h_one {
     font-size: 56px;
     line-height: 1.07;

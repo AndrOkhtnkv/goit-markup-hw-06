@@ -47,7 +47,9 @@ body {
 img {
     display: block;
 }
-
+.overlay img {
+    width: 288px;
+}
 .header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -65,7 +67,6 @@ img {
 header .logo {
     margin-top: 16px;
     margin-bottom: 16px;
-    margin-right: 76px;
 }
 .logo span {
     color:  #2E2F42;
@@ -229,7 +230,13 @@ header .logo {
     max-width: 1440px;
     margin: 0 auto;
 }
-
+@media (min-device-ratio:2),
+    (min-resolution:192dpi),
+    (min-resolution: 2dppx) {
+.section_one {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images_double/hero_image_2x.jpg);
+}
+    }
 .section_one_h_one {
     text-align: center;
     /* Header 2 */
@@ -458,7 +465,7 @@ header .logo {
 }
 
 .section_one_h_one {
-    max-width: 496px;
+    max-width: 224px;
     margin: auto;
 }
 
@@ -500,9 +507,7 @@ header .logo {
     gap: 72px;
 }
 .section_two_list_item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
     width: 288px;
 }
 

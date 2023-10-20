@@ -45,7 +45,11 @@ body {
     
 }
 img {
+    
     display: block;
+}
+.overlay img {
+    width: 356px;
 }
 
 .header {
@@ -104,6 +108,10 @@ header .logo {
 
 }
 .contacts-item {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 14px; /* 116.667% */
     letter-spacing: 0.48px;
     color: #434455;
@@ -126,7 +134,13 @@ header .logo {
 
     margin: 0 auto;
 }
-
+@media (min-device-ratio:2),
+    (min-resolution:192dpi),
+    (min-resolution: 2dppx) {
+.section_one {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images_double/hero_image_2x.jpg);
+}
+    }
 .section_one_h_one {
     font-size: 56px;
     line-height: 1.07;
@@ -383,9 +397,10 @@ header .logo {
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
+    row-gap: 72px;
 }
 .section_two_list_item {
-    width: calc((100% - 48px) / 2);
+    width: calc((100% - 24px) / 2);
 }
 
 .section_two_h_three {
